@@ -7,22 +7,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta</title>
     <link rel="stylesheet" href="../style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navegation">
-            <a href="../index.html" class="logo">Tommy's Coffe</a>
-            <ul>
-                <li><a href="./carta.html">Carta</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+        <nav class="navbar">
+            <a href="../index.html" class="navbar-logo">Tommy's Coffe</a>
+            <ul class="menu" id="menu">
+                <li><a href="../pages/carta.html">Carta</a></li>
+                <li><a href="../pages/nosotros.html ">Nosotros</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
+            <div class="menu-bar" id="menu-bar">
+                <i class="fas fa-bars"></i>
+            </div>
+    
         </nav>
     </header>
+    <hr>
 <main>
-    <section>
-            <article class="card__head">
+
+        <section class="container mt-5">
+            <h2 class="carta-title ">Nuestros tostados</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/tostadoprin.jpg" class="card-img-top" alt="Jamón y queso">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark" >Tostado jamón y queso (4tostados)</h5>
+                          <p class="card-text text-dark">$600</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">
+                            <article class="card">
+                                <img src="../imagenes/tosbaconcheddar.jpg" class="card-img-top" alt="Bacon y cheddar">
+                                <div class="card-body">
+                                  <h5 class="card-title text-dark">Bacon y cheddar (4 tostados)</h5>
+                                  <p class="card-text text-dark">$680</p>
+                                  <a href="./carta.html" class="btn btn-warning">Pedir</a>
+                                </div>
+                            </article>         
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">
+                            <article class="card">
+                                <img src="../imagenes/tospalta.jpg" class="card-img-top" alt="Palta y huevo">
+                                <div class="card-body">
+                                  <h5 class="card-title text-dark">Palta y huevo (4 tostados)</h5>
+                                  <p class="card-text text-dark">$680</p>
+                                  <a href="./carta.html" class="btn btn-warning">Pedir</a>
+                                </div>
+                            </article>         
+                        </div>                 
+        </section>
+           <hr>
+        
+            <section class="container mt-5">
+                <h2 class="carta-title">Nuestros cafés</h2>
+                <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/cafeconleche.jpg" class="card-img-top" alt="Café con leche">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Café con leche</h5>
+                          <p class="card-text text-dark">$280</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/cafeamericano.jpg" class="card-img-top" alt="Café americano">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Café americano</h5>
+                          <p class="card-text text-dark">$250</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/capuchino.jpg" class="card-img-top" alt="Capuchino">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Capuchino</h5>
+                          <p class="card-text text-dark">$300</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+           </section>
+
+           <section class="container mt-5">
+            <h2 class="carta-title">Nuestras tortas</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
+                        <article class="card">
+                            <img src="../imagenes/rogel.jpg" class="card-img-top" alt="Rogel">
+                            <div class="card-body">
+                              <h5 class="card-title text-dark">Rogel</h5>
+                              <p class="card-text text-dark">$525</p>    
+                              <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                            </div>
+                        </article>         
+                    </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/brownie.jpg" class="card-img-top" alt="Brownie">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Brownie</h5>
+                          <p class="card-text text-dark">$450</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
+                    <article class="card">
+                        <img src="../imagenes/chocotorta.jpg" class="card-img-top" alt="Chocotorta">
+                        <div class="card-body">
+                          <h5 class="card-title text-dark">Chocotorta</h5>
+                          <p class="card-text text-dark">$550</p>    
+                          <a href="./carta.html" class="btn btn-warning">Pedir</a>               
+                        </div>
+                    </article>         
+                </div>
+
+           </section>
+
+     <!-- <article class="card__head">
                 <h1 class="card__title">Nuestro tostados</h1>
                 <img src="../imagenes/tostadojyq.jpg" alt="Tostado con jamon y queso">
                 <h2>Jamón y queso</h2>
@@ -77,14 +217,15 @@
                 <img src="../imagenes/tortadecafe.jpg" alt="Torta de cafe">
                 <h6>Torta de cafe</h6>
                 <p>$999</p>
-            </article>
-
-    </section>
+            </article> -->
 </main>
-    <footer>
-        <hr>
-        <h3>Todos los derechos reservados</h3>
-    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
-
+<footer>
+    <hr>
+    <h3>Todos los derechos reservados</h3>
+</footer>
 </html>
