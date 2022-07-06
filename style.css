@@ -60,37 +60,6 @@ navbar {
   }
 
 
-/* header{
-    background-color: white;
-    align-items: center;
-    display: flex;  
-    justify-content: center;
-    height: 7rem;
-    position: sticky;
-    top: 0;
-} */
-
-
-/* .navegation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90vw;
-    font-size: 30px;
-    
-}
-.navegation ul{
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-}
-.navegation ul li a{
-    font-family:'playfair';
-    color: #592C1C; 
-    border-bottom: solid 2px;
-    text-decoration: none
-} */
-
 .banner{
     display: flex;
     flex-direction: column;
@@ -113,7 +82,7 @@ navbar {
 }
 
 .banner p{
-    /* font-size: 3rem; */
+
     letter-spacing: 5px;
     color: white;
 }
@@ -155,8 +124,6 @@ navbar {
 .card{
     background-color: white;
      color: #592C1C;
-      /* height: 16rem; */
-     /* width: 21vw;  */
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -291,6 +258,76 @@ navbar {
 
   
 
+/* pag 2 */
+navbar {
+    background-color: #EDCB54;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+  }
+
+  .navbar-logo {
+    font-family: 'playfair';
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #592C1C;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+  }
+
+
+  .navbar .menu {
+    grid-column: 4 / 7;
+    display: flex;
+  }
+  .navbar ul li {
+    font-family: 'playfair';
+    font-size: 1.5rem;
+    color: #592C1C;
+    margin-right: 8em;
+    list-style: none;
+  }
+  
+  .navbar ul li a {
+    color: #592C1C;
+  }
+
+  .navbar a:hover {
+    color: #592C1C;
+  }
+  .navbar .menu-bar {
+    display: none;
+  }
+
+.card__redes {
+    background-color: white;
+    font-family: 'playfair';
+    font-size: 2rem;
+    font-weight: 900;
+    min-height: 10rem;
+    color:#592C1C ;
+    display: flex;
+    justify-content: left;
+    text-decoration: underline;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15vh;
+}
+
+.redes img {
+    max-width: 100%;
+    height: 100%;
+}
+
+    .card__footer h2 { 
+    background-color: white;
+    color: #592C1C;
+ }
+
 /* pag 3 */
 navbar {
     background-color: #EDCB54;
@@ -332,41 +369,6 @@ navbar {
   .navbar .menu-bar {
     display: none;
   }
-/* .card__body{
-    font-family: 'playfair';
-    display: grid;
-    background-color: white;
-    color: #592C1C;
-} */
-.card__redes {
-    background-color: white;
-    font-family: 'playfair';
-    font-size: 2rem;
-    font-weight: 900;
-    min-height: 10rem;
-    color:#592C1C ;
-    display: flex;
-    justify-content: left;
-    text-decoration: underline;
-}
-
-.redes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 15vh;
-}
-
-.redes img {
-    max-width: 100%;
-    height: 100%;
-}
-
-    .card__footer h2 { 
-    background-color: white;
-    color: #592C1C;
- }
-
-
 
 @media (max-width:300px){
     .navbar {
