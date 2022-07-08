@@ -18,6 +18,9 @@ body{
     color: white;
     
 }
+.main {
+  overflow: hidden;
+}
 navbar {
     background-color: #EDCB54;
     display: grid;
