@@ -201,6 +201,14 @@ footer{
     font-size: 32px;
 }
 /* pag 1 */
+.card-main {
+  /* background-color: #592C1C; */
+}
+
+.carta-title{
+  font-family: 'playfair';
+  color: white;
+}
 
 .container mt-5 {
     background-color: #592C1C;
