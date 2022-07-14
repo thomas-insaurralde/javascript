@@ -1,0 +1,22 @@
+{
+  "name": "proyecto---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/styley.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebatstian-coder/coder-clon.git"
+  },
+  "author": "Thomas Insaurralde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebatstian-coder/coder-clon/issues"
+  },
+  "homepage": "https://github.com/sebatstian-coder/coder-clon#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
