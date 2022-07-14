@@ -21,7 +21,7 @@ body{
 .main {
   overflow: hidden;
 }
-navbar {
+/* navbar {
     background-color: #EDCB54;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -60,7 +60,7 @@ navbar {
   }
   .navbar .menu-bar {
     display: none;
-  }
+  } */
 
 
 .banner{
@@ -85,7 +85,7 @@ navbar {
 }
 
 .banner p{
-
+    font-family:'playfair';
     letter-spacing: 5px;
     color: white;
 }
@@ -118,7 +118,7 @@ navbar {
     font-size: 3rem;
     font-weight: 900;
     color:#592C1C ;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     text-decoration: underline;
     }
