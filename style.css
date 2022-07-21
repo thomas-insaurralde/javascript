@@ -11,6 +11,9 @@
     list-style: none;
 }
 
+.test{
+    font-size: 1rem;
+}
 body{
     font-family: 'playfair';
     grid-column: 4 / 7;
@@ -18,11 +21,6 @@ body{
     color: white;
     
 }
-
-.nav-item{
-    margin-left: 100px;
-}
-
 .main {
   overflow: hidden;
 }
@@ -80,7 +78,7 @@ body{
 .paginas {
     background-color: white;
     font-family: 'playfair';
-    font-size: 30rem;
+    font-size: 3rem;
     font-weight: 900;
     color:#592C1C ;
     /* display: flex; */
@@ -165,10 +163,6 @@ footer{
     margin: 1rem;
     font-size: 32px;
 }
-/* pag 1 */
-// .card-main {
-//    background-color: #592C1C; 
-// }
 
 .carta-title{
   

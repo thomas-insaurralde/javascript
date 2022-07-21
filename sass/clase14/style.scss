@@ -1,0 +1,56 @@
+@import 'variables';
+
+h1 {
+    color: $colorPrincipal;
+
+    span {
+        color: orange;
+    }
+}
+
+.bloque {
+    background-color: #eee;
+    padding: $espaciorelleno;
+
+    &__elemento {
+        text-align: center;
+    }
+
+    &__elemento2 {
+            // font-size: $fontMedium;
+            font-size: $fontBase + 4;
+    }
+}
+
+
+// EXTEND
+.btn-base {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: $fontMedium;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: $transicion;
+
+    &:hover {
+        opacity: 0,8;
+    }
+}
+
+.btn-contacto {
+    @extend .btn-base;
+    background-color: darkblue;
+}
+
+.btn-info {
+    @extend .btn-base;
+    background-color: #333;
+}
+
+// mixins
+@mixin card-base {
+    border-radius: 10px;
+    border: 2px solid;
+}
