@@ -11,9 +11,6 @@
     list-style: none;
 }
 
-.test{
-    font-size: 1rem;
-}
 body{
     font-family: 'playfair';
     grid-column: 4 / 7;
