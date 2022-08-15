@@ -241,6 +241,7 @@ textarea {
   max-width: 100%;
 }
 
+
 @media (max-width: 300px) {
   .navbar {
     display: grid;
