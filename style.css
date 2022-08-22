@@ -24,7 +24,10 @@ body{
 }
 .navbar-brand{
     font-family: 'playfair';
-    font-size: 32px;
+    margin: 5px;
+    height: 8vh;
+    width: 8vw;
+    font-size: 3rem;
 }
 
 /* paginas header */
@@ -162,7 +165,7 @@ width: 100%;
 .nosotros img{
     object-fit: cover;
     width: 100%;
-    height: 100%;footer
+    height: 100%;
 }
 
 .footer{
@@ -196,8 +199,17 @@ font-family: 'playfair';
     background-color: #592C1C;
 }
 
+.card-main {
+    background-color: rgb(248, 248, 248);
+}
 
-
+.carta-title{
+    display: flex;
+    align-items: center;
+    font-family: 'playfair';
+    color: rgb(20, 18, 18);
+    text-decoration: underline;
+}
 
 /* pag 2 */
 .nosotros_title {
@@ -209,9 +221,9 @@ font-family: 'playfair';
 }
 
 .mapa {
-  margin: 15px;
-  height: 70vh;
-  width: 70vw;
+  margin: 11px;
+  height: 77vh;
+  width: 97vw;
 /* width: 2rem;
 height: 2rem; */
 }
