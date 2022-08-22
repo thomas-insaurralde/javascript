@@ -18,6 +18,18 @@ body{
     color: white;
     
 }
+
+.navbar{
+    padding: 1.5rem;
+}
+.navbar-brand{
+    font-family: 'playfair';
+    font-size: 32px;
+}
+
+/* paginas header */
+
+
 .main {
   overflow: hidden;
 }
@@ -27,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem;
+    padding: 3rem;
     background-image: url(./imagenes/parallax.jpg);
     height: 93vh;
     background-size: cover;
@@ -36,7 +48,7 @@ body{
 
 
 
-.banner h1{
+.banner_h1{
    font-family:'playfair';
    font-size: 4rem;
    letter-spacing: 3px;
@@ -57,18 +69,13 @@ body{
     text-shadow:rgba(0, 0, 0, 0.8) 0 0 8px;
 }
 
-.logo {
-    font-family: 'playfair';
-    color: #592C1C;
-    font-size: 3rem;
-    text-decoration: none;
-}
+
 
 .container{
     display: flex;
     flex-wrap: wrap;
     display: flex; flex-direction: row;
-   justify-content: center;
+   justify-content: space-between;
    
 }
 
@@ -79,7 +86,7 @@ body{
     font-weight: 900;
     color:#592C1C ;
     /* display: flex; */
-    justify-content: center;
+    justify-content: space-between;
     text-decoration: underline;
     }
     
@@ -162,33 +169,36 @@ footer{
     font-size: 32px;
 }
 
-.carta-title{
-  
-  font-family: 'playfair';
-  color: black;
+.footer_grid {
+    display: grid;
+    
 }
+
+.footer_title{
+    color: #592C1C;
+    font-family: 'playfair';
+    font-size: 2rem;
+}
+.footer__grid-pagina {
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+}
+
 
 .container mt-5 {
     background-color: #592C1C;
 }
 
 
-.carta h2 {
-    background-color: #592C1C;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
-    align-items: center;
-    text-decoration: underline;
-   
-}
 
 
 /* pag 2 */
-.encuentranos h1 {
+.nosotros_title {
+    display: flex;
+    align-content: center;
   font-family: 'playfair';
   text-decoration: underline;
+  
 }
 
 .mapa {
@@ -224,7 +234,7 @@ height: 2rem; */
   width: 450px;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
-  padding: 258px 20px;
+  padding: 218px 20px;
   box-sizing: border-box;
   border-radius: 7px;
   }
@@ -310,7 +320,6 @@ height: 2rem; */
        grid-template-columns: 1fr; 
     }
 }
-
 
 
 @media (max-width:900px)  {
