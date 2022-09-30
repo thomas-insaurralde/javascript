@@ -10,7 +10,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+svg{
+    font-size: 30px;
+}
 body{
     font-family: 'playfair';
     grid-column: 4 / 7;
@@ -24,7 +26,7 @@ body{
 }
 .navbar-brand{
     font-family: 'playfair';
-    margin: 5px;
+    margin: 3px;
     height: 8vh;
     width: 8vw;
     font-size: 3rem;
